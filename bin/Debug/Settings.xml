@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<setting>
+  <database>
+    <type>postgreSql</type>
+    <connectionString>
+      <msSQL />
+      <postgreSql>Host=localhost;port=5432;Username=;Password;Database=nc_excel;</postgreSql>
+    </connectionString>
+  </database>
+  <meta>
+    <columns>
+      <column>name=ID; type=System.Int64;</column>
+      
+    </columns>
+  </meta>
+  <config>
+    <path>C:\Users\asrinutku\Desktop\veri dosyası</path>
+  </config>
+</setting>

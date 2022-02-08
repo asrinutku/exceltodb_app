@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<setting>
+  <database>
+    <type>postgreSql</type>
+    <connectionString>
+      <msSQL />
+      <postgreSql>Host=localhost;port=5432;Username=postgres;Password=1234;Database=nc_excel;</postgreSql>
+    </connectionString>
+  </database>
+  <meta>
+    <columns>
+      <column>name=ID; type=System.Int64;</column>
+      <column>name=Il; type=character varying(200);</column>
+      <column>name=IlRef; type=character varying(200);</column>
+      <column>name=Ilce; type=character varying(200);</column>
+      <column>name=IlceRef; type=character varying(200);</column>
+      <column>name=Kurum; type=character varying(200);</column>
+      <column>name=KurumRef; type=character varying(200);</column>
+      <column>name=Mahalle; type=character varying(200);</column>
+      <column>name=MahalleRef; type=character varying(200);</column>
+      <column>name=Ada; type=character varying(200);</column>
+      <column>name=Parsel; type=character varying(200);</column>
+      <column>name=Mevkii; type=character varying(200);</column>
+      <column>name=Blok; type=character varying(200);</column>
+      <column>name=Kat; type=character varying(200);</column>
+      <column>name=Giris; type=character varying(200);</column>
+      <column>name=BBNo; type=character varying(200);</column>
+      <column>name=Durum; type=character varying(200);</column>
+      <column>name=Zemin; type=character varying(200);</column>
+      <column>name=ZeminTip; type=character varying(200);</column>
+      <column>name=Hisse; type=character varying(200);</column>
+      <column>name=HisseTip; type=character varying(200);</column>
+      <column>name=Malik; type=character varying(200);</column>
+      <column>name=MalikRef; type=character varying(200);</column>
+      <column>name=VergiNo; type=character varying(200);</column>
+      <column>name=TCKimlikNo; type=character varying(200);</column>
+      <column>name=AnaTasinmazAlani; type=character varying(200);</column>
+      <column>name=HisseyeDusenAlan; type=character varying(200);</column>
+      <column>name=Pay; type=character varying(200);</column>
+      <column>name=Payda; type=character varying(200);</column>
+      <column>name=TasinmazCinsi; type=character varying(400);</column>
+      <column>name=ArsaPayi; type=character varying(200);</column>
+      <column>name=ArsaPayda; type=character varying(200);</column>
+      <column>name=BBBrutAlan; type=character varying(200);</column>
+      <column>name=BBNetAlan; type=character varying(200);</column>
+      <column>name=CiltNo; type=character varying(200);</column>
+      <column>name=SayfaNo; type=character varying(200);</column>
+      <column>name=IstirakNo; type=character varying(200);</column>
+      <column>name=Tesis_Edinme_Tarih_Yevmiye; type=date;</column>
+      <column>name=Terkin_Edinme_Tarih_Yevmiye; type=date;</column>
+    </columns>
+  </meta>
+  <config>
+    <path>C:\Users\asrinutku\Desktop\veri dosyası</path>
+  </config>
+</setting>
